@@ -212,24 +212,7 @@
     </div>
   
   
-  <script>
-    document.addEventListener("contextmenu", function (event) {
-        if (!event.target.matches("input, textarea")) {
-            event.preventDefault(); // Désactive le clic droit sauf sur les champs de saisie
-        }
-    });
 
-    document.addEventListener("keydown", function (event) {
-        if (
-            event.key === "F12" || 
-            (event.ctrlKey && event.shiftKey && event.key === "I") || 
-            (event.ctrlKey && event.shiftKey && event.key === "J") || 
-            (event.ctrlKey && event.key === "U")
-        ) {
-            event.preventDefault(); // Bloque F12, Ctrl+Shift+I, Ctrl+Shift+J et Ctrl+U
-        }
-    });
-</script>
 
   
   
